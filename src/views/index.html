@@ -4,10 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
-
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Портфолио - Дзюбинский Николай</title>
+    <meta name="title" content="Портфолио - Дзюбинский Николай">
+    <meta name="description" content="Здесь вы можете ознакомиться с моим опытом, а также моими работами.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Портфолио - Дзюбинский Николай">
+    <meta property="og:description" content="Здесь вы можете ознакомиться с моим опытом, а также моими работами.">
+    <meta property="og:image" content="img/meta_tag.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Портфолио - Дзюбинский Николай">
+    <meta property="twitter:description" content="Здесь вы можете ознакомиться с моим опытом, а также моими работами.">
+    <meta property="twitter:image" content="img/meta_tag.jpeg">
+
     <link rel="shortcut icon" href="img/icons/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/icons/favicon/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="57x57" href="img/icons/favicon/apple-icon-57x57.png">
@@ -27,17 +44,25 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/icons/favicon/ms-icon-144x144.png">
+
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-
-    <!-- @@include("../blocks/modules/header/header.html")
-    @@include("../blocks/modules/footer/footer.html") -->
-
+    @@include("../blocks/modules/sidepanel/sidepanel.html")
+    @@include("../blocks/modules/header/header.html")
+    @@include("../blocks/modules/aboutme/aboutme.html")
+    @@include("../blocks/modules/benefit/benefit.html")
+    @@include("../blocks/modules/skills/skills.html")
+    @@include("../blocks/modules/portfolio/portfolio.html")
+    @@include("../blocks/modules/price-list/price-list.html")
+    @@include("../blocks/modules/contacts/contacts.html")
 
     <script src="js/vendor.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/444ccfbcee.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
