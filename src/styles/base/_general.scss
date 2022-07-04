@@ -2,6 +2,7 @@
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
+  // background: #ededed;
 }
 
 .container {
@@ -13,5 +14,5 @@
   width: 60px;
   height: 3px;
   background-color: $main-color;
-  margin-top: 25px;
+  margin: 25px auto 0 auto;
 }

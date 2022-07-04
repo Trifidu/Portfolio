@@ -1,5 +1,5 @@
 .aboutme {
-  min-height: 855px;
+  // min-height: 670px;
   padding-top: 120px;
   background-color: #ededed;
   &__wrapper {
@@ -19,7 +19,7 @@
   &__descr {
     padding-top: 6px;
     .divider {
-      margin-top: 0;
+      margin: 0;
     }
   }
   &__title {
