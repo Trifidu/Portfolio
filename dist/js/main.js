@@ -1,23 +1,25 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/blocks/modules/footer/footer.js":
-/*!*********************************************!*\
-  !*** ./src/blocks/modules/footer/footer.js ***!
-  \*********************************************/
+/***/ "./src/blocks/modules/menu/menu.js":
+/*!*****************************************!*\
+  !*** ./src/blocks/modules/menu/menu.js ***!
+  \*****************************************/
 /***/ (() => {
 
-
-
-/***/ }),
-
-/***/ "./src/blocks/modules/header/header.js":
-/*!*********************************************!*\
-  !*** ./src/blocks/modules/header/header.js ***!
-  \*********************************************/
-/***/ (() => {
-
-
+var hamburger = document.querySelector(".hamburger"),
+    menu = document.querySelector(".menu"),
+    closeElem = document.querySelector(".menu__close"),
+    closeElemOverlay = document.querySelector(".menu__overlay");
+hamburger.addEventListener("click", function () {
+  menu.classList.add("active");
+});
+closeElem.addEventListener("click", function () {
+  menu.classList.remove("active");
+});
+closeElemOverlay.addEventListener("click", function () {
+  menu.classList.remove("active");
+});
 
 /***/ }),
 
@@ -39,11 +41,8 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_header_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! %modules%/header/header */ "./src/blocks/modules/header/header.js");
-/* harmony import */ var _modules_header_header__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_header_header__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_footer_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! %modules%/footer/footer */ "./src/blocks/modules/footer/footer.js");
-/* harmony import */ var _modules_footer_footer__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_footer_footer__WEBPACK_IMPORTED_MODULE_1__);
-
+/* harmony import */ var _modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! %modules%/menu/menu */ "./src/blocks/modules/menu/menu.js");
+/* harmony import */ var _modules_menu_menu__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__);
 
 
 /***/ })
