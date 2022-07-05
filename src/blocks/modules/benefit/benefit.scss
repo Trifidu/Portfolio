@@ -6,7 +6,6 @@
     position: relative;
     text-align: center;
     z-index: 0;
-
     @include before_circle;
     &:before {
       top: -6px;

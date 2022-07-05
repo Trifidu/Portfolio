@@ -23,6 +23,20 @@ closeElemOverlay.addEventListener("click", function () {
 
 /***/ }),
 
+/***/ "./src/blocks/modules/skills/skills.js":
+/*!*********************************************!*\
+  !*** ./src/blocks/modules/skills/skills.js ***!
+  \*********************************************/
+/***/ (() => {
+
+var counters = document.querySelectorAll(".skills__ratings-counter"),
+    lines = document.querySelectorAll(".skills__ratings-line span");
+counters.forEach(function (item, i) {
+  lines[i].style.width = item.innerHTML;
+});
+
+/***/ }),
+
 /***/ "./src/js/import/components.js":
 /*!*************************************!*\
   !*** ./src/js/import/components.js ***!
@@ -43,6 +57,9 @@ closeElemOverlay.addEventListener("click", function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! %modules%/menu/menu */ "./src/blocks/modules/menu/menu.js");
 /* harmony import */ var _modules_menu_menu__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_menu_menu__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modules_skills_skills__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! %modules%/skills/skills */ "./src/blocks/modules/skills/skills.js");
+/* harmony import */ var _modules_skills_skills__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_skills_skills__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 /***/ })

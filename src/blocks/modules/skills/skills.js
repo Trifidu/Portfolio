@@ -1,13 +1,6 @@
-modules.define('skills', ['i-bem-dom'], function(provide, bemDom) {
+const counters = document.querySelectorAll(".skills__ratings-counter"),
+  lines = document.querySelectorAll(".skills__ratings-line span");
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+counters.forEach((item, i) => {
+  lines[i].style.width = item.innerHTML;
 });
