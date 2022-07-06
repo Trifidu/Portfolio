@@ -1,19 +1,6 @@
 .skills {
   padding-top: 120px;
   background-color: #ededed;
-  &__title {
-    position: relative;
-    text-align: center;
-    z-index: 0;
-    @include before_circle;
-    &::before {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  &__subtitle {
-    text-align: center;
-  }
   &__items {
     margin-top: 60px;
     padding: 0 10px;
