@@ -1448,4 +1448,65 @@ template {
 .portfolio__item:hover {
   transform: scale(1.04);
 }
+
+.price-list {
+  padding-top: 60px;
+  background-color: #ededed;
+}
+
+.price-list .divider {
+  margin-top: 30px;
+}
+
+.price-list__wrapper {
+  margin-top: 60px;
+  padding: 0 60px;
+  display: grid;
+  grid-template: repeat(3, minmax(45px, auto))/repeat(2, 365px);
+  grid-auto-rows: minmax(45px, auto);
+  justify-content: space-between;
+  row-gap: 15px;
+}
+
+.price-list__item {
+  position: relative;
+  display: grid;
+  grid-template: repeat(2, minmax(21px, auto))/repeat(2, auto);
+  grid-auto-rows: 21px;
+  padding-left: 25px;
+  row-gap: 5px;
+}
+
+.price-list__item::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  background-color: #a9b843;
+  border-radius: 100%;
+}
+
+.price-list__type {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #40434a;
+}
+
+.price-list__count {
+  justify-self: end;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.price-list__descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  grid-column: 1/3;
+}
 /*# sourceMappingURL=maps/main.css.map */
