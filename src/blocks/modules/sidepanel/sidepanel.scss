@@ -11,13 +11,14 @@
   &__link {
     transform: rotate(-90deg);
     color: #fff;
+    transition: all 0.6s ease;
+    &:hover {
+      color: $main-color;
+      transform: scale(1.5);
+    }
   }
   &__social-icon {
     font-size: 20px;
-    transition: all 0.25s ease;
-    &:hover {
-      color: $main-color;
-    }
   }
   &__divider {
     width: 2px;
@@ -31,7 +32,6 @@
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-
     span {
       transform: rotate(-90deg) translate(-40%, -260%);
       display: block;

@@ -50,17 +50,17 @@
 
 <body>
     <aside class="sidepanel">
-    <a href="#" class="sidepanel__link">
+    <a href="#" class="sidepanel__link" id="social-icon1">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-facebook-square"></i>
         </span>
     </a>
-    <a href="#" class="sidepanel__link">
+    <a href="#" class="sidepanel__link" id="social-icon2">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-instagram"></i>
         </span>
     </a>
-    <a href="#" class="sidepanel__link">
+    <a href="#" class="sidepanel__link" id="social-icon3">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-github"></i>
         </span>
@@ -69,9 +69,9 @@
     <div class="sidepanel__text"><span>Социальные сети</span></div>
 </aside>
     <div class="hamburger">
-    <span></span>
-    <span class="long"></span>
-    <span></span>
+    <span id="line1"></span>
+    <span class="long" id="line2"></span>
+    <span id="line3"></span>
 </div>
     <div class="menu">
     <div class="menu__block">
@@ -475,7 +475,48 @@
         </div>
     </div>
 </section>
-    
+    <section class="contacts">
+    <div class="container">
+        <div class="contacts__wrapper">
+            <div class="contacts__photo">
+                <img src="img\photo.jpg" alt="photo">
+            </div>
+            <div class="contacts__descr">
+                <h2 class="title title_fz16 title_sc contacts__title">Контакты</h2>
+                <div class="title title_fz36 title_bl contacts__subtitle">Свяжитесь со мной</div>
+                <div class="divider"></div>
+                <div class="title title_fz14 title_sc contacts__text">Любым удобным для вас способом:</div>
+                <div class="contacts__social">
+                    <a href="#" class="contacts__link"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="tg://resolve?domain=@NickDziubynskyi" class="contacts__link"><i
+                            class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="contacts__link"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#" class="contacts__link"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <div class="title title_fz14 title_sc contacts__text">Или оставьте ваши данные и я сам вам напишу:
+                </div>
+
+                <form action="#" class="contacts__form">
+                    <div class="contacts__input">
+                        <input name="name" id="name" type="text">
+                        <label for="name">Ваше имя</label>
+                    </div>
+                    <div class="contacts__input">
+                        <input name="email" id="email" type="email">
+                        <label for="email">Ваша почта</label>
+                    </div>
+                    <div class="contacts__textarea">
+                        <textarea name="text" id="text"></textarea>
+                        <label for="text">Ваше сообщение</label>
+                    </div>
+                    <div>
+                        <button class="btn btn_form">Отправить сообщение</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
     <script src="js/vendor.js"></script>
     <script src="js/main.js"></script>

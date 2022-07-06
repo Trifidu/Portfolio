@@ -7,7 +7,7 @@
     background-color: transparent;
     border: 2px solid $main-color;
     box-shadow: 0 0 45px 45px $main-color inset, 0 0 0 0 $main-color;
-    transition: all 0.25s ease;
+    transition: all 0.35s ease;
     &:hover,
     &:focus {
       color: #fff;
@@ -18,16 +18,8 @@
     }
   }
   &_invisible {
-    transition: all 280ms ease-in-out;
+    transition: all 0.4s ease-in-out;
     letter-spacing: 0;
-
-    // align-items: center;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // padding: 1em;
-    // text-align: center;
-
     &:hover,
     &:active {
       letter-spacing: 4px;
@@ -55,6 +47,23 @@
       bottom: auto;
       top: 0;
       width: 100%;
+    }
+  }
+  &_form {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    box-shadow: rgba(169, 184, 67, 0.9) 0 0px 0px 40px inset;
+    transition: all 0.8s ease;
+    border: 2px solid $main-color;
+    &:hover {
+      color: rgba(64, 67, 74, 0.9);
+      box-shadow: 0 0 10px 2px $main-color inset, 0 0 10px 4px $main-color;
+    }
+    &:active,
+    &:focus {
+      outline: none;
     }
   }
 }
