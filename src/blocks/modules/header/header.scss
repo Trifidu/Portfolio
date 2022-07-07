@@ -37,3 +37,21 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    &__btns {
+      margin-top: 32px;
+      width: 180px;
+      flex-wrap: wrap;
+    }
+  }
+}

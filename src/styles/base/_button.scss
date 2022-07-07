@@ -67,3 +67,20 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .btn {
+    &_form {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
+    &_invisible {
+      width: 150px;
+      margin-top: 15px;
+    }
+  }
+}
