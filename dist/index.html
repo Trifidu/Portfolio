@@ -50,17 +50,17 @@
 
 <body>
     <aside class="sidepanel">
-    <a href="#" class="sidepanel__link" id="social-icon1">
+    <a href="https://github.com/Trifidu" target="_blank" class="sidepanel__link" id="social-icon1">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-facebook-square"></i>
         </span>
     </a>
-    <a href="#" class="sidepanel__link" id="social-icon2">
+    <a href="https://www.instagram.com/nick_dzyubinsky/" target="_blank" class="sidepanel__link" id="social-icon2">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-instagram"></i>
         </span>
     </a>
-    <a href="#" class="sidepanel__link" id="social-icon3">
+    <a href="https://github.com/Trifidu" target="_blank" class="sidepanel__link" id="social-icon3">
         <span class="sidepanel__social-icon">
             <i class="fa-brands fa-github"></i>
         </span>
@@ -84,25 +84,25 @@
         </div>
         <nav>
             <ul class="menu__list">
-                <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                <li class="menu__link"><a href="#aboutme">ПРО МЕНЯ</a></li>
+                <li class="menu__link"><a href="#benefit">МОЙ ОПЫТ</a></li>
+                <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+                <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                <li class="menu__link"><a href="#price-list">ПРАЙС-ЛИСТ</a></li>
+                <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
             </ul>
         </nav>
 
         <div class="menu__social">
-            <a href="#" class="menu__social-link">
+            <a href="https://github.com/Trifidu" target="_blank" class="menu__social-link">
                 <span class="menu__social-icon">
                     <i class="fa-brands fa-github"></i>
                 </span> </a> </a>
-            <a href="#" class="menu__social-link">
+            <a href="https://www.instagram.com/nick_dzyubinsky/" target="_blank" class="menu__social-link">
                 <span class="menu__social-icon">
                     <i class="fa-brands fa-instagram"></i>
                 </span> </a> </a>
-            <a href="#" class="menu__social-link">
+            <a href="https://www.facebook.com/n.l.k.o.l.s" target="_blank" class="menu__social-link">
                 <span class="menu__social-icon">
                     <i class="fa-brands fa-facebook-square"></i>
                 </span> </a>
@@ -118,12 +118,12 @@
             из города Киев
         </h1>
         <div class="header__btns">
-            <a href="#" class="header__link btn btn_main">Портфолио</a>
-            <a href="#" class="header__link btn btn_invisible">Про меня</a>
+            <a href="#portfolio" class="header__link btn btn_main">Портфолио</a>
+            <a href="#aboutme" class="header__link btn btn_invisible">Про меня</a>
         </div>
     </div>
 </section>
-    <section class="aboutme">
+    <section class="aboutme" id="aboutme">
     <div class="container">
         <div class="aboutme__wrapper">
             <div class="aboutme__photo">
@@ -196,7 +196,7 @@
         </div>
     </div>
 </section>
-    <section class="benefit">
+    <section class="benefit" id="benefit">
     <div class="container">
         <h2 class="title title_fz16 title_sc title__section-title">Опыт</h2>
         <div class="title title_fz36 title_bl title__section-subtitle">Чем я буду полезен</div>
@@ -279,7 +279,7 @@
         </div>
     </div>
 </section>
-    <section class="skills">
+    <section class="skills" id="skills">
     <div class="container">
         <h2 class="title title_fz16 title_sc title__section-title">Навыки</h2>
         <div class="title title_fz36 title_bl title__section-subtitle">Что я использую в работе</div>
@@ -398,34 +398,52 @@
         </div>
     </div>
 </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
     <div class="container">
         <h2 class="title title_fz16 title_sc title__section-title">Портфолио</h2>
         <div class="title title_fz36 title_bl title__section-subtitle">Мои работы</div>
         <div class="divider"></div>
         <div class="portfolio__wrapper">
             <a href="#" class="portfolio__item">
-                <img src="img\portfolio\uber.jpg" alt="uber">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\uber.webp">
+                    <img src="img\portfolio\uber.jpg" alt="uber">
+                </picture>
             </a>
             <a href="#" class="portfolio__item">
-                <img src="img\portfolio\pulse.jpg" alt="pulse">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\pulse.webp">
+                    <img src="img\portfolio\pulse.jpg" alt="pulse">
+                </picture>
             </a>
             <a href="#" class="portfolio__item">
-                <img src="img\portfolio\bread.jpg" alt="bread">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\bread.webp">
+                    <img src="img\portfolio\bread.jpg" alt="bread">
+                </picture>
             </a>
             <a href="#" class="portfolio__item vertical">
-                <img src="img\portfolio\plans.jpg" alt="plans">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\plans.webp">
+                    <img src="img\portfolio\plans.jpg" alt="plans">
+                </picture>
             </a>
             <a href="#" class="portfolio__item">
-                <img src="img\portfolio\ipad.jpg" alt="ipad">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\ipad.webp">
+                    <img src="img\portfolio\ipad.jpg" alt="ipad">
+                </picture>
             </a>
             <a href="#" class="portfolio__item horizontal">
-                <img src="img\portfolio\mac.jpg" alt="mac">
+                <picture>
+                    <source type="image/webp" srcset="img\portfolio\mac.webp">
+                    <img src="img\portfolio\mac.jpg" alt="mac">
+                </picture>
             </a>
         </div>
     </div>
 </section>
-    <section class="price-list">
+    <section class="price-list" id="price-list">
     <div class="container">
         <h2 class="title title_fz16 title_sc title__section-title">Прайс-лист</h2>
         <div class="divider"></div>
@@ -475,11 +493,14 @@
         </div>
     </div>
 </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
     <div class="container">
         <div class="contacts__wrapper">
             <div class="contacts__photo">
-                <img src="img\photo.jpg" alt="photo">
+                <picture>
+                    <source type="image/webp" srcset="img\photo.webp">
+                    <img src="img\photo.jpg" alt="photo">
+                </picture>
             </div>
             <div class="contacts__descr">
                 <h2 class="title title_fz16 title_sc contacts__title">Контакты</h2>
@@ -487,11 +508,14 @@
                 <div class="divider"></div>
                 <div class="title title_fz14 title_sc contacts__text">Любым удобным для вас способом:</div>
                 <div class="contacts__social">
-                    <a href="#" class="contacts__link"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/n.l.k.o.l.s" target="_blank" class="contacts__link"><i
+                            class="fa-brands fa-facebook-square"></i></a>
                     <a href="tg://resolve?domain=@NickDziubynskyi" class="contacts__link"><i
                             class="fa-brands fa-telegram"></i></a>
-                    <a href="#" class="contacts__link"><i class="fa-brands fa-instagram"></i></i></a>
-                    <a href="#" class="contacts__link"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://www.instagram.com/nick_dzyubinsky/" target="_blank" class="contacts__link"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/николай-дзюбинский-0b22b7194/" target="_blank"
+                        class="contacts__link"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
                 <div class="title title_fz14 title_sc contacts__text">Или оставьте ваши данные и я сам вам напишу:
                 </div>
