@@ -1547,10 +1547,6 @@ template {
   justify-content: space-between;
 }
 
-.contacts__photo {
-  margin: auto 0;
-}
-
 .contacts__photo img {
   width: 100%;
   height: 100%;
