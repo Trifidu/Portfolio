@@ -13,3 +13,5 @@ closeElem.addEventListener("click", () => {
 closeElemOverlay.addEventListener("click", () => {
   menu.classList.remove("active");
 });
+
+//TODO: off scroll, when menu is active.

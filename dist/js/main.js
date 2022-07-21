@@ -19,7 +19,7 @@ closeElem.addEventListener("click", function () {
 });
 closeElemOverlay.addEventListener("click", function () {
   menu.classList.remove("active");
-});
+}); //TODO: off scroll, when menu is active.
 
 /***/ }),
 
