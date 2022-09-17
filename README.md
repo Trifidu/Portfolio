@@ -14,4 +14,4 @@
 
 ## Link
 
-[versel-Portfolio](https://portfolio-eight-iota-83.vercel.app)
+[vercel-Portfolio](https://portfolio-eight-iota-83.vercel.app)
